@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Mystery Quest', system-ui;
+}
+.mystery-quest-regular {
+  font-family: "Mystery Quest", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    background: linear-gradient(135deg, #2d995e 0%, #110f9c 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+.container{
+    margin:0 15px;
+    font-family: 'Mystery Quest', system-ui;
+}
+.form-box{
+    background: rgba(255, 255, 255, 0.527);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 450px;
+    display: none;
+}
+.form-box.active{
+    display: block;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000ce;
+    font-size: 34px;
+    font-family:'Mystery Quest', system-ui;
+}
+input,select{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000000e5;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #2d995e 0%, #110f9c 100%);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+button:hover{
+    background: linear-gradient(135deg , #110f9c 0%, #2d995e 100%)
+}
+p{
+    font-size: 14.5px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Mystery Quest', system-ui;
+}
+p a{
+    color: rgba(113, 17, 192, 0.933);
+    text-decoration: none;
+    font-weight: bold; 
+}
+p a:hover{
+    text-decoration: underline;
+
+}
